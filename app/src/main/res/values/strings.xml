@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">FreeRoomFinder</string>
+    <string name="title_activity_results">Results</string>
+    <string name="titleAccueil">Salle(s) de TP Libre(s)</string>
+    <string name="urlCalendarPart1">https://edt.inp-toulouse.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=</string>
+    <string name="urlCalendarPart2">&amp;projectId=20&amp;calType=ical&amp;firstDate="</string>
+    <string name="urlCalendarPart3">&amp;lastDate=</string>
+    <string name="ok">OK</string>
+    <string name="et">Et :</string>
+    <string name="le">Le :</string>
+    <string name="entre">Entre :</string>
+    <string name="ressayer">Réessayer</string>
+    <string name="erreur">Erreur :</string>
+</resources>

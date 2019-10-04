@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sallesInfo">
+
+        <item name="room_name">C201</item>
+        <item name="room_id">304</item>
+
+        <item name="room_name">C202</item>
+        <item name="room_id">305</item>
+
+        <item name="room_name">C203</item>
+        <item name="room_id">306</item>
+
+        <item name="room_name">C204</item>
+        <item name="room_id">307</item>
+
+        <item name="room_name">C205</item>
+        <item name="room_id">308</item>
+
+        <item name="room_name">C206</item>
+        <item name="room_id">309</item>
+
+        <item name="room_name">C214a</item>
+        <item name="room_id">938</item>
+
+        <item name="room_name">C214b</item>
+        <item name="room_id">939</item>
+
+        <item name="room_name">C216a</item>
+        <item name="room_id">942</item>
+
+        <item name="room_name">C216b</item>
+        <item name="room_id">947</item>
+
+        <item name="room_name">C301</item>
+        <item name="room_id">311</item>
+
+        <item name="room_name">C302</item>
+        <item name="room_id">312</item>
+
+        <item name="room_name">C303</item>
+        <item name="room_id">313</item>
+
+        <item name="room_name">C304</item>
+        <item name="room_id">314</item>
+
+        <item name="room_name">C305</item>
+        <item name="room_id">315</item>
+
+        <item name="room_name">C306</item>
+        <item name="room_id">316</item>
+
+    </string-array>
+</resources>
