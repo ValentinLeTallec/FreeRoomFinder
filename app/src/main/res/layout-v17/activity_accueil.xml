@@ -25,13 +25,15 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/dateCard"
+        android:onClick="showDatePicker"
+        style="@style/Card"
+        app:layout_constraintTop_toBottomOf="@+id/titleTextView">
 
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@+id/dateCard"
-            android:onClick="showDatePicker"
-            style="@style/Card"
-            app:layout_constraintTop_toBottomOf="@+id/titleTextView">
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
             <TextView
                 android:id="@+id/textViewLe"
@@ -47,12 +49,18 @@
                 android:text="@string/defaultDate"
                 tools:ignore="MissingConstraints" />
         </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/startTimeCard"
+        android:onClick="showTimePicker"
+        style="@style/Card"
+        app:layout_constraintTop_toBottomOf="@+id/dateCard">
 
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@+id/startTimeCard"
-            android:onClick="showTimePicker"
-            style="@style/Card"
-            app:layout_constraintTop_toBottomOf="@+id/dateCard">
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
             <TextView
                 android:id="@+id/textViewEntre"
@@ -67,12 +75,17 @@
                 android:text="@string/defaultTime"
                 tools:ignore="MissingConstraints" />
         </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/endTimeCard"
+        android:onClick="showTimePicker"
+        style="@style/Card"
+        app:layout_constraintTop_toBottomOf="@+id/startTimeCard">
 
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@+id/endTimeCard"
-            android:onClick="showTimePicker"
-            style="@style/Card"
-            app:layout_constraintTop_toBottomOf="@+id/startTimeCard">
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
             <TextView
                 android:id="@+id/textViewEt"
@@ -87,6 +100,7 @@
                 android:text="@string/defaultTime"
                 tools:ignore="MissingConstraints" />
         </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
 
     <Button
         android:id="@+id/bOk"
@@ -100,5 +114,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/endTimeCard" />
+
 
 </LinearLayout>

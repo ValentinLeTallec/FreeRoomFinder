@@ -56,7 +56,7 @@ class Accueil : AppCompatActivity() {
         val minute: Int
         val button: Int
 
-        if (view == bStartTime) {
+        if (view == startTimeCard) {
             hour = date.hourStart
             minute = date.minuteStart
             button = 1
