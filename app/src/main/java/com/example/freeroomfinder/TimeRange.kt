@@ -8,7 +8,7 @@ import java.util.Calendar.DAY_OF_MONTH
 import java.util.Calendar.HOUR_OF_DAY
 import java.util.Calendar.MINUTE
 
-class TimeRange(timeRangeString: String = "") {
+class TimeRange(timeRangeString: String? = "") {
 
     /**Normailistion d'un entier
      * @param number le nombre
@@ -45,7 +45,7 @@ class TimeRange(timeRangeString: String = "") {
         normaliser(minuteStart) + utcPlus0(hourEnd) + normaliser(minuteEnd)
 
     init {
-        if (timeRangeString.length == 16) {
+        if (timeRangeString != null && timeRangeString.length == 16) {
             this.year   = Integer.valueOf(timeRangeString.substring(0,4))
             this.month  = Integer.valueOf(timeRangeString.substring(4,6))
             this.day    = Integer.valueOf(timeRangeString.substring(6,8))

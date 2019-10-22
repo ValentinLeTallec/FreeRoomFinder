@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:background="#424242"
+    android:background="@color/colorBackground"
     android:orientation="vertical"
     android:gravity="center_horizontal"
     android:layout_width="match_parent"
@@ -40,8 +40,7 @@
                 style="@style/CardInside.left"
                 android:text="@string/le"
                 android:textAppearance="@style/TextAppearance.AppCompat.Widget.PopupMenu.Large"
-                tools:ignore="MissingConstraints"
-                tools:layout_editor_absoluteX="42dp" />
+                tools:ignore="MissingConstraints" />
 
             <TextView
                 android:id="@+id/bDate"
@@ -102,18 +101,30 @@
         </androidx.constraintlayout.widget.ConstraintLayout>
     </com.google.android.material.card.MaterialCardView>
 
+    <com.google.android.flexbox.FlexboxLayout
+        android:id="@+id/filters"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        app:flexDirection="row"
+        app:flexWrap="wrap"
+        app:justifyContent="center"
+        app:showDivider="middle"
+        app:dividerDrawable="@drawable/divider_chip" />
+
     <Button
         android:id="@+id/bOk"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
+        android:layout_marginTop="15dp"
         android:onClick="lookForFreeRoom"
         android:text="@string/ok"
+        app:backgroundTint="@color/colorPrimary"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/endTimeCard" />
+        app:layout_constraintTop_toBottomOf="@+id/filters" />
 
 
 </LinearLayout>

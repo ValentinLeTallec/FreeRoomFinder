@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="sallesInfo">
 
+    <string-array name="filtersName">
+        <!--Those names are used to point to the corresponding array so be careful not to misspell-->
+        <item>Linux</item>
+        <item>Windows</item>
+        <item>Electronique</item>
+        <item>Hydro</item>
+        <item>TD</item>
+    </string-array>
+
+    <string-array name="Linux">
         <item name="room_name">C201</item>
         <item name="room_id">304</item>
 
@@ -49,6 +58,42 @@
 
         <item name="room_name">C306</item>
         <item name="room_id">316</item>
+    </string-array>
 
+    <string-array name="Windows">
+        <item name="room_name">Z666</item>
+        <item name="room_id">341</item>
+    </string-array>
+
+    <string-array name="Electronique">
+        <item name="room_name">B201</item>
+        <item name="room_id">274</item>
+
+        <item name="room_name">B202</item>
+        <item name="room_id"></item>
+
+        <item name="room_name">B203</item>
+        <item name="room_id"></item>
+
+        <item name="room_name">B301</item>
+        <item name="room_id">281</item>
+
+        <item name="room_name">B302</item>
+        <item name="room_id">282</item>
+
+        <item name="room_name">B303</item>
+        <item name="room_id">283</item>
+
+
+    </string-array>
+
+    <string-array name="Hydro">
+        <item name="room_name">Z666</item>
+        <item name="room_id">342</item>
+    </string-array>
+
+    <string-array name="TD">
+        <item name="room_name">Z666</item>
+        <item name="room_id">343</item>
     </string-array>
 </resources>

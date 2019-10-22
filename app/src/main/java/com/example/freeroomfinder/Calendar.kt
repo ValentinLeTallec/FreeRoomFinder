@@ -58,25 +58,16 @@ class Calendar(stringCal: String = "") {
         val freeRooms = roomNames.toMutableList()
 
         for (e in events) {
-            if (e.endTime.value   in (startTime + 1) until endTime ||
-                e.startTime.value in (startTime + 1) until endTime ||
-                e.startTime.value < startTime && endTime < e.endTime.value) {
+            if (e.endTime.value   in startTime until endTime ||
+                e.startTime.value in startTime until endTime ||
+                e.startTime.value <= startTime && endTime <= e.endTime.value) {
                 for (location in e.locations) {
                     freeRooms.remove(location.substring(0, 4))
-//                    freeRooms.remove(location.substring(0, 4) + "a")
-//                    freeRooms.remove(location.substring(0, 4) + "b")
                 }
             }
         }
-        var freeRoomString = ""
-        if (freeRooms.isEmpty()) {
-            freeRoomString = "Aucune salle libre"
-        } else {
-            for (room in freeRooms) {
-                freeRoomString += "$room\n"
-            }
-        }
-        return freeRoomString
+
+        return if (freeRooms.isEmpty()) "Aucune salle libre" else freeRooms.toString().drop(1).dropLast(1)
     }
 }
 

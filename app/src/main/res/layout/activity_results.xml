@@ -1,25 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/FreeRoom"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorBackground"
     android:paddingTop="20dp"
-    android:paddingLeft="52dp"
-    android:paddingRight="12dp"
-    android:paddingBottom="20dp"
-    tools:context=".Results"
-    android:paddingEnd="12dp"
-    android:paddingStart="52dp">
-
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-        <TextView
-            android:id="@+id/sallesLibres"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    tools:context=".Results">
+        <LinearLayout
+            android:id="@+id/FreeRooms"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
-    </ScrollView>
-</RelativeLayout>
+            android:layout_height="wrap_content"
+            android:background="@color/colorBackground"
+            android:divider="@drawable/divider_card"
+            android:showDividers="middle"
+            android:orientation="vertical">
+
+
+        </LinearLayout>
+
+</ScrollView>
