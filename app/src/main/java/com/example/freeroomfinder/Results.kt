@@ -1,7 +1,5 @@
 package com.example.freeroomfinder
 
-import android.content.res.Resources
-
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
