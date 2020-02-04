@@ -1,4 +1,4 @@
-package com.example.freeroomfinder
+package com.n7.freeroomfinder
 
 import android.content.Context
 import android.util.AttributeSet

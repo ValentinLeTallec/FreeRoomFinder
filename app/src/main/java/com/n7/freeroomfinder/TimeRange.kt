@@ -1,4 +1,4 @@
-package com.example.freeroomfinder
+package com.n7.freeroomfinder
 
 import java.util.TimeZone.getTimeZone
 import java.util.Calendar.getInstance

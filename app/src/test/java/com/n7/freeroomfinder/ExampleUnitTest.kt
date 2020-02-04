@@ -1,4 +1,4 @@
-package com.example.freeroomfinder
+package com.n7.freeroomfinder
 
 import org.junit.Test
 

@@ -1,4 +1,4 @@
-package com.example.freeroomfinder
+package com.n7.freeroomfinder
 
 import android.app.DatePickerDialog
 import android.app.TimePickerDialog
@@ -46,6 +46,11 @@ class Accueil : AppCompatActivity() {
     override fun onResume() {
         super.onResume()
         date = TimeRange()
+
+        /* Réinitialisation du texte présent sur les différents boutton */
+        bDate.text = date.getDateToPrint()
+        bStartTime.text = date.getStartTime()
+        bEndTime.text = date.getEndTime()
     }
 
     override fun onStop() {
