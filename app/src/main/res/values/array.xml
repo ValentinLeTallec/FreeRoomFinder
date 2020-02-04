@@ -5,8 +5,6 @@
         <!--Those names are used to point to the corresponding array so be careful not to misspell-->
         <item>Linux</item>
         <item>Windows</item>
-        <item>Electronique</item>
-        <item>Hydro</item>
         <item>TD</item>
     </string-array>
 
@@ -61,39 +59,108 @@
     </string-array>
 
     <string-array name="Windows">
-        <item name="room_name">Z666</item>
-        <item name="room_id">341</item>
-    </string-array>
+        <item name="room_name">C104</item>
+        <item name="room_id">297</item>
 
-    <string-array name="Electronique">
-        <item name="room_name">B201</item>
-        <item name="room_id">274</item>
+        <item name="room_name">C106</item>
+        <item name="room_id">298</item>
 
-        <item name="room_name">B202</item>
-        <item name="room_id"></item>
+        <item name="room_name">C108</item>
+        <item name="room_id">300</item>
 
-        <item name="room_name">B203</item>
-        <item name="room_id"></item>
+        <item name="room_name">C111</item>
+        <item name="room_id">302</item>
 
-        <item name="room_name">B301</item>
-        <item name="room_id">281</item>
-
-        <item name="room_name">B302</item>
-        <item name="room_id">282</item>
-
-        <item name="room_name">B303</item>
-        <item name="room_id">283</item>
-
-
-    </string-array>
-
-    <string-array name="Hydro">
-        <item name="room_name">Z666</item>
-        <item name="room_id">342</item>
+        <item name="room_name">C112</item>
+        <item name="room_id">303</item>
     </string-array>
 
     <string-array name="TD">
-        <item name="room_name">Z666</item>
-        <item name="room_id">343</item>
+        <item name="room_name">A201</item>
+        <item name="room_id">241</item>
+
+        <item name="room_name">A202</item>
+        <item name="room_id">242</item>
+
+        <item name="room_name">A203</item>
+        <item name="room_id">243</item>
+
+        <item name="room_name">A301</item>
+        <item name="room_id">247</item>
+
+        <item name="room_name">A302</item>
+        <item name="room_id">248</item>
+
+        <item name="room_name">A303</item>
+        <item name="room_id">249</item>
+
+        <item name="room_name">A304</item>
+        <item name="room_id">250</item>
+
+        <item name="room_name">B006</item>
+        <item name="room_id">460</item>
+
+        <item name="room_name">B007</item>
+        <item name="room_id">261</item>
+
+        <item name="room_name">B122</item>
+        <item name="room_id">272</item>
+
+        <item name="room_name">B123</item>
+        <item name="room_id">273</item>
+
+        <item name="room_name">B104</item>
+        <item name="room_id">329</item>
+
+        <item name="room_name">B105</item>
+        <item name="room_id">330</item>
+
+        <item name="room_name">B205</item>
+        <item name="room_id">276</item>
+
+        <item name="room_name">B206</item>
+        <item name="room_id">277</item>
+
+        <item name="room_name">B207</item>
+        <item name="room_id">278</item>
+
+        <item name="room_name">B208</item>
+        <item name="room_id">279</item>
+
+        <item name="room_name">B209</item>
+        <item name="room_id">280</item>
+
+        <item name="room_name">B306</item>
+        <item name="room_id">286</item>
+
+        <item name="room_name">B307</item>
+        <item name="room_id">287</item>
+
+        <item name="room_name">B308</item>
+        <item name="room_id">288</item>
+
+        <item name="room_name">C004</item>
+        <item name="room_id">291</item>
+
+        <item name="room_name">C006</item>
+        <item name="room_id">292</item>
+
+        <item name="room_name">C008</item>
+        <item name="room_id">293</item>
+
+        <item name="room_name">C010</item>
+        <item name="room_id">335</item>
+
+        <item name="room_name">C101</item>
+        <item name="room_id">211</item>
+
+        <item name="room_name">C102</item>
+        <item name="room_id">295</item>
+
+        <item name="room_name">C103</item>
+        <item name="room_id">296</item>
+
+        <item name="room_name">C209</item>
+        <item name="room_id">310</item>
     </string-array>
 </resources>

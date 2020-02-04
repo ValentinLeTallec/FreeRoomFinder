@@ -13,10 +13,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
-        android:screenOrientation="portrait"
         tools:ignore="AllowBackup,GoogleAppIndexingWarning">
-        <activity android:name=".Results"/>
-        <activity android:name=".Accueil">
+        <activity
+            android:name=".Results"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Accueil"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
